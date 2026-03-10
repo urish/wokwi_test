@@ -10,6 +10,7 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 Using a clock and a binary counter, this design counts from 0 to 6 and then resets back to 0. For every value of the counter, a different letter is displayed on the 7-segment display. The mapping from counter value to letter is as follows:
+
 - 0: O
 - 1: 2
 - 2: E
@@ -37,5 +38,4 @@ Set the clock to 1 Hz and observe the display. You should see the letters O, 2, 
 
 ## External hardware
 
-LED display (7-segment) button, clock
-
+LED display (7-segment) button, clock, and reset button.
